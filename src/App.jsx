@@ -5,13 +5,14 @@ import Section from "./componnts/Section"
 
 
 
+
 const App = () => {
   return (
     <div>
       <Navbar />
       <Section/>
       <Btns/>
-      {/* <Cards/> */}
+      <Cards/>
     </div>
   )
 }
