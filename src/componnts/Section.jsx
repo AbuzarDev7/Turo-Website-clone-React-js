@@ -5,7 +5,7 @@ const Section = () => {
     <div className="px-4 md:px-10 mt-4">
       <div className="max-w-[1100px] mx-auto">
 
-        {/* IMAGE BACKGROUND */}
+       
         <div
           className="
           min-h-[260px] md:h-[360px]
@@ -17,7 +17,7 @@ const Section = () => {
         >
           <div className="w-full flex flex-col items-center gap-4 px-3">
 
-            {/* ✅ TEXT (responsive) */}
+            
             <div className="text-center max-w-[700px]">
               <h2 className="
                 text-xl sm:text-2xl md:text-4xl
@@ -34,7 +34,7 @@ const Section = () => {
               </p>
             </div>
 
-            {/* ✅ FORM (responsive & safe) */}
+        
             <div className="w-full mt-1">
               <div
                 className="
@@ -52,7 +52,7 @@ const Section = () => {
                 "
                 >
 
-                  {/* WHERE */}
+               
                   <div className="flex-1">
                     <p className="text-xs text-gray-500 mb-1">Where</p>
                     <input
@@ -63,7 +63,7 @@ const Section = () => {
 
                   <div className="hidden md:block h-10 w-px bg-gray-200" />
 
-                  {/* FROM */}
+                  
                   <div className="flex flex-1 gap-3">
                     <div className="flex-1">
                       <p className="text-xs text-gray-500 mb-1">From</p>
@@ -84,7 +84,7 @@ const Section = () => {
 
                   <div className="hidden md:block h-10 w-px bg-gray-200" />
 
-                  {/* UNTIL */}
+                  
                   <div className="flex flex-1 gap-3">
                     <div className="flex-1">
                       <p className="text-xs text-gray-500 mb-1">Until</p>
@@ -103,7 +103,7 @@ const Section = () => {
                     </div>
                   </div>
 
-                  {/* SEARCH */}
+                 
                   <button
                     className="
                     w-full md:w-12

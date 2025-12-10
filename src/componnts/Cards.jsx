@@ -1,4 +1,4 @@
-import React from "react";
+
 import carsData from "../cars";
 
 const sectionTitles = [
@@ -16,9 +16,9 @@ const Cards = () => {
   }
 
   return (
-    // ✅ Screen padding (left/right gap)
+    
     <div className="px-4 md:px-10 bg-gray-50">
-      {/* ✅ Width control (Turo style) */}
+
       <div className="max-w-[1040px] mx-auto py-12 space-y-16">
 
         {carGroups.map((group, index) => (
@@ -28,7 +28,7 @@ const Cards = () => {
               {sectionTitles[index] || "Car rentals near you"}
             </h2>
 
-            {/* Horizontal scroll */}
+       
             <div className="overflow-x-auto">
               <div className="flex gap-4 w-max pb-2">
 
@@ -41,7 +41,7 @@ const Cards = () => {
                       className="w-[260px] flex-shrink-0 bg-white rounded-xl
                       shadow-sm hover:shadow-md transition"
                     >
-                      {/* Image */}
+                 
                       <div className="h-[160px] rounded-t-xl overflow-hidden">
                         <img
                           src={car.imageUrl}
@@ -50,7 +50,7 @@ const Cards = () => {
                         />
                       </div>
 
-                      {/* Content */}
+                      
                       <div className="p-4">
                         <h4 className="font-semibold leading-tight">
                           {car.title}

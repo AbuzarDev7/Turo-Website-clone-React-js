@@ -6,13 +6,13 @@ import { FaTiktok } from "react-icons/fa";
 const FooterBottom = () => {
   return (
     <footer className="bg-gray-300">
-      {/* ✅ NARROW WIDTH + SMALL SIDE MARGIN */}
+      
       <div className="max-w-6xl mx-auto px-4 py-10">
 
-        {/* ✅ COMPACT GRID */}
+   
         <div className="grid grid-cols-2 md:grid-cols-5 gap-x-10 gap-y-8">
 
-          {/* Turo */}
+        
           <div>
             <h4 className="font-semibold text-sm mb-3">Turo</h4>
             <ul className="space-y-2 text-xs">
@@ -25,7 +25,7 @@ const FooterBottom = () => {
             </ul>
           </div>
 
-          {/* Locations */}
+        
           <div>
             <h4 className="font-semibold text-sm mb-3">Locations</h4>
             <ul className="space-y-2 text-xs">
@@ -38,7 +38,7 @@ const FooterBottom = () => {
             </ul>
           </div>
 
-          {/* Explore */}
+        
           <div>
             <h4 className="font-semibold text-sm mb-3">Explore</h4>
             <ul className="space-y-2 text-xs">
@@ -62,9 +62,9 @@ const FooterBottom = () => {
             </ul>
           </div>
 
-          {/* Right Side */}
+          
           <div className="space-y-4">
-            {/* Social */}
+         
             <div className="flex items-center gap-3 text-sm">
               <span><a href="https://web.facebook.com/Turo/" target="blank"><FaFacebook size={25} /></a></span>
               <span><a href="https://www.instagram.com/turo/ " target="blank"> <FaInstagram size={25} /></a></span>
@@ -75,7 +75,7 @@ const FooterBottom = () => {
               </span>
             </div>
 
-            {/* Store buttons – SMALL */}
+            
             <div className="flex gap-2">
               <img
                 src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
@@ -89,7 +89,7 @@ const FooterBottom = () => {
               />
             </div>
 
-            {/* Language */}
+            
             <div className="flex items-center gap-2 text-xs">
               <img
                 src="https://flagcdn.com/w20/gb.png"
