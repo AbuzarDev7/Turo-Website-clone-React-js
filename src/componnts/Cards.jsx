@@ -1,21 +1,32 @@
 import React from "react";
-import carsData from "../cars"; // ✅ PERFECT IMPORT
+import carsData from "../cars";
+
+// ✅ Headings for each row
+const sectionTitles = [
+  "Car rentals in London",
+  "SUV rental at King’s Cross",
+  "Affordable car rental in Edinburgh",
+  "Car rentals at London (LHR) airport",
+];
 
 const Cards = () => {
-  // 10 cars per row
   const carGroups = [];
+
   for (let i = 0; i < carsData.length; i += 10) {
     carGroups.push(carsData.slice(i, i + 10));
   }
 
   return (
-    <div className="p-6 space-y-10 bg-gray-50">
-      <h2 className="text-2xl font-semibold">
-        SUV rental in Oxford
-      </h2>
-
+    <div className="p-6 space-y-14 bg-gray-50">
       {carGroups.map((group, index) => (
-        <div key={index}>
+        <div key={index} className="space-y-4">
+
+          {/* ✅ Heading changes every 10 cards */}
+          <h2 className="text-2xl font-semibold">
+            {sectionTitles[index] || "Car rentals near you"}
+          </h2>
+
+          {/* Scrollable cards */}
           <div className="overflow-x-auto">
             <div className="flex gap-4 w-max pb-2">
               {group.map((car) => {
