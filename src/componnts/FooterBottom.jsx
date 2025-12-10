@@ -1,9 +1,8 @@
-import React from "react";
-import { Facebook } from "lucide-react";
-import { Instagram } from "lucide-react";
-import { Youtube } from "lucide-react";
 
-
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaTiktok } from "react-icons/fa";
 const FooterBottom = () => {
   return (
     <footer className="bg-gray-300">
@@ -67,10 +66,10 @@ const FooterBottom = () => {
           <div className="space-y-4">
             {/* Social */}
             <div className="flex items-center gap-3 text-sm">
-              <span><a href="https://web.facebook.com/Turo/" target="blank"><Facebook color="#000000" strokeWidth={2.25} absoluteStrokeWidth /></a></span>
-              <span><a href="https://www.instagram.com/turo/ " target="blank"><Instagram color="#000000" strokeWidth={2.5} absoluteStrokeWidth /></a></span>
-              <span className=" text-2xl "><a href="https://www.tiktok.com/@turo" target="blank"><i class="ri-tiktok-line"></i></a></span>
-              <span> <a href="https://www.youtube.com/turo" target="blank"><Youtube size={28} strokeWidth={2.25} /></a></span>
+              <span><a href="https://web.facebook.com/Turo/" target="blank"><FaFacebook size={25} /></a></span>
+              <span><a href="https://www.instagram.com/turo/ " target="blank"> <FaInstagram size={25} /></a></span>
+              <span className=" text-2xl "><a href="https://www.tiktok.com/@turo" target="blank"><FaTiktok size={25} /></a></span>
+              <span> <a href="https://www.youtube.com/turo" target="blank"><FaYoutube size={25} /></a></span>
               <span className="text-[10px] border px-5 rounded py-2">
                 BLOG
               </span>
