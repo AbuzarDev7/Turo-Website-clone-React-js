@@ -98,7 +98,7 @@ const FooterBottom = () => {
           </div>
         </div>
 
-        {/* ✅ BOTTOM LINE – TIGHT */}
+      
         <div className="mt-8 flex flex-wrap gap-x-5 gap-y-1 text-[11px]">
           <span>©2025 Turo</span>
           <span>Terms</span>
