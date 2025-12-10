@@ -1,7 +1,7 @@
 import React from "react";
 import carsData from "../cars";
 
-// ✅ Headings for each row
+
 const sectionTitles = [
   "Car rentals in London",
   "SUV rental at King’s Cross",
@@ -21,12 +21,12 @@ const Cards = () => {
       {carGroups.map((group, index) => (
         <div key={index} className="space-y-4">
 
-          {/* ✅ Heading changes every 10 cards */}
+         
           <h2 className="text-2xl font-semibold">
             {sectionTitles[index] || "Car rentals near you"}
           </h2>
 
-          {/* Scrollable cards */}
+
           <div className="overflow-x-auto">
             <div className="flex gap-4 w-max pb-2">
               {group.map((car) => {
