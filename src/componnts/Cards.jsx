@@ -1,51 +1,52 @@
-import React from 'react'
+import React from "react";
 
-import cars from '../../cars'
+const cars = Array.from({ length: 50 }, (_, i) => ({
+  id: i + 1,
+  title: `Car ${i + 1}`,
+  price: 80 + i,
+}));
+
 const Cards = () => {
+  // cars ko 10-10 ke groups me divide kar rahe hain
+  const carGroups = [];
+  for (let i = 0; i < cars.length; i += 10) {
+    carGroups.push(cars.slice(i, i + 10));
+  }
+
   return (
-    <div>
-      <h2>SUV rental in Oxford
-</h2>
-    <div className="max-w-[1300px] mx-auto px-4 py-10">
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-    {cars.map((car) => (
-      <div
-        key={car.id}
-        className="rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md transition"
-      >
-        <img
-          src={car.imageUrl}
-          alt={car.title}
-          className="w-full h-[180px] object-cover"
-        />
+    <div className="p-6 space-y-10">
+      <h2 className="text-2xl font-semibold">
+        SUV rental in Oxford
+      </h2>
 
-        <div className="p-4 space-y-2">
-          <h3 className="font-medium text-[15px]">{car.title}</h3>
+      {carGroups.map((group, index) => (
+        <div key={index}>
+          <h3 className="font-medium mb-3">
+            Cars {index * 10 + 1} – {index * 10 + 10}
+          </h3>
 
-          <div className="flex items-center gap-1 text-sm text-gray-600">
-            ⭐ {car.rating}
-            <span className="text-gray-400">({car.trips} trips)</span>
-          </div>
+          {/* Scrollable row */}
+          <div className="overflow-x-auto">
+            <div className="flex gap-4 w-max">
+              {group.map((car) => (
+                <div
+                  key={car.id}
+                  className="w-[220px] flex-shrink-0 bg-white rounded-xl shadow p-4"
+                >
+                  <div className="h-[120px] bg-gray-200 rounded mb-3" />
 
-          <div className="flex justify-between items-center">
-            <p className="text-[15px] font-semibold">
-              £{car.pricePerDay} <span className="text-gray-400">/ day</span>
-            </p>
-
-            {car.discountPercentage > 0 && (
-              <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">
-                {car.discountPercentage}% off
-              </span>
-            )}
+                  <h4 className="font-medium">{car.title}</h4>
+                  <p className="text-gray-500">
+                    £{car.price} / day
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
-      </div>
-    ))}
-  </div>
-</div>
-
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Cards
+export default Cards;
