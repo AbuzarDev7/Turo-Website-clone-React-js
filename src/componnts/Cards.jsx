@@ -71,7 +71,7 @@ const Cards = () => {
                           )}
 
                           <span className="text-sm font-semibold">
-                            £{totalPrice} for 3 days
+                            ${totalPrice} for 3 days
                           </span>
                         </div>
                       </div>

@@ -1,4 +1,8 @@
 import React from "react";
+import { Facebook } from "lucide-react";
+import { Instagram } from "lucide-react";
+import { Youtube } from "lucide-react";
+
 
 const FooterBottom = () => {
   return (
@@ -63,11 +67,11 @@ const FooterBottom = () => {
           <div className="space-y-4">
             {/* Social */}
             <div className="flex items-center gap-3 text-sm">
-              <span>ⓕ</span>
-              <span>ⓘ</span>
-              <span>♫</span>
-              <span>▶</span>
-              <span className="text-[10px] border px-2 rounded">
+              <span><a href="https://web.facebook.com/Turo/" target="blank"><Facebook color="#000000" strokeWidth={2.25} absoluteStrokeWidth /></a></span>
+              <span><a href="https://www.instagram.com/turo/ " target="blank"><Instagram color="#000000" strokeWidth={2.5} absoluteStrokeWidth /></a></span>
+              <span className=" text-2xl "><a href="https://www.tiktok.com/@turo" target="blank"><i class="ri-tiktok-line"></i></a></span>
+              <span> <a href="https://www.youtube.com/turo" target="blank"><Youtube size={28} strokeWidth={2.25} /></a></span>
+              <span className="text-[10px] border px-5 rounded py-2">
                 BLOG
               </span>
             </div>
