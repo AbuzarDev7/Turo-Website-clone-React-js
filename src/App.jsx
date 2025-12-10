@@ -1,6 +1,7 @@
 import Btns from "./componnts/Btns"
 import Cards from "./componnts/Cards"
-import FooterSection from "./componnts/FooterSec1"
+import FooterBottom from "./componnts/FooterBottom"
+import FooterSection from "./componnts/FooterSec"
 import Navbar from "./componnts/Navbar"
 import Section from "./componnts/Section"
 
@@ -16,6 +17,7 @@ const App = () => {
       <Btns/>
         <Cards/>
 <FooterSection/>
+<FooterBottom/>
     </div>
   )
 }
