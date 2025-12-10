@@ -1,46 +1,68 @@
 import React from "react";
-
-const cars = Array.from({ length: 50 }, (_, i) => ({
-  id: i + 1,
-  title: `Car ${i + 1}`,
-  price: 80 + i,
-}));
+import carsData from "../cars"; // ✅ PERFECT IMPORT
 
 const Cards = () => {
-  // cars ko 10-10 ke groups me divide kar rahe hain
+  // 10 cars per row
   const carGroups = [];
-  for (let i = 0; i < cars.length; i += 10) {
-    carGroups.push(cars.slice(i, i + 10));
+  for (let i = 0; i < carsData.length; i += 10) {
+    carGroups.push(carsData.slice(i, i + 10));
   }
 
   return (
-    <div className="p-6 space-y-10">
+    <div className="p-6 space-y-10 bg-gray-50">
       <h2 className="text-2xl font-semibold">
         SUV rental in Oxford
       </h2>
 
       {carGroups.map((group, index) => (
         <div key={index}>
-          <h3 className="font-medium mb-3">
-            Cars {index * 10 + 1} – {index * 10 + 10}
-          </h3>
-
-          {/* Scrollable row */}
           <div className="overflow-x-auto">
-            <div className="flex gap-4 w-max">
-              {group.map((car) => (
-                <div
-                  key={car.id}
-                  className="w-[220px] flex-shrink-0 bg-white rounded-xl shadow p-4"
-                >
-                  <div className="h-[120px] bg-gray-200 rounded mb-3" />
+            <div className="flex gap-4 w-max pb-2">
+              {group.map((car) => {
+                const totalPrice = car.pricePerDay * 3;
 
-                  <h4 className="font-medium">{car.title}</h4>
-                  <p className="text-gray-500">
-                    £{car.price} / day
-                  </p>
-                </div>
-              ))}
+                return (
+                  <div
+                    key={car.id}
+                    className="w-[260px] flex-shrink-0 bg-white rounded-xl shadow-sm hover:shadow-md transition"
+                  >
+                    {/* Image */}
+                    <div className="h-[160px] rounded-t-xl overflow-hidden">
+                      <img
+                        src={car.imageUrl}
+                        alt={car.title}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+
+                    {/* Content */}
+                    <div className="p-4">
+                      <h4 className="font-semibold leading-tight">
+                        {car.title}
+                      </h4>
+
+                      <div className="flex items-center text-sm text-gray-600 mt-1">
+                        <span className="text-blue-600 font-semibold mr-1">
+                          {car.rating}★
+                        </span>
+                        ({car.trips} trips)
+                      </div>
+
+                      <div className="flex justify-between items-center mt-3">
+                        {car.discountPercentage > 0 && (
+                          <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded">
+                            Save {car.discountPercentage}%
+                          </span>
+                        )}
+
+                        <span className="text-sm font-semibold">
+                          £{totalPrice} for 3 days
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
