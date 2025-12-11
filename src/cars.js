@@ -12,7 +12,7 @@ const carsData = [
   {
     id: 2,
     title: "White luxury SUV",
-    imageUrl: "https://images.pexels.com/photos/3225530/pexels-photo-3225530.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmGs0gMUPW8oeFdKhZ9RG7Lo1i85SxHpJIgg&s",
     rating: 4.8,
     trips: 18,
     pricePerDay: 80,
@@ -32,7 +32,7 @@ const carsData = [
   {
     id: 4,
     title: "Blue compact hatchback",
-    imageUrl: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwPRW3oFf10JB0C5PBxNnLuSbVp5sqzzkwlw&s",
     rating: 4.0,
     trips: 30,
     pricePerDay: 35,
@@ -52,7 +52,7 @@ const carsData = [
   {
     id: 6,
     title: "Yellow sports car",
-    imageUrl: "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkINcfo5s7ifc84w5aHHQE-gxsCiJWEbQGcg&s",
     rating: 4.3,
     trips: 12,
     pricePerDay: 110,
@@ -62,7 +62,7 @@ const carsData = [
   {
     id: 7,
     title: "Urban sedan parked",
-    imageUrl: "https://images.pexels.com/photos/340516/pexels-photo-340516.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLXC9t7NnkjS-abK2ELCQxSb_6hckEWZ--hg&s",
     rating: 4.6,
     trips: 27,
     pricePerDay: 45,
@@ -72,7 +72,7 @@ const carsData = [
   {
     id: 8,
     title: "White electric city car",
-    imageUrl: "https://images.pexels.com/photos/603172/pexels-photo-603172.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP-RaIWl9JTpZEo7Ig6jhxWpjPfKKqZKFRpQ&s",
     rating: 4.9,
     trips: 8,
     pricePerDay: 65,
@@ -82,7 +82,7 @@ const carsData = [
   {
     id: 9,
     title: "Black luxury coupe",
-    imageUrl: "https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg",
+    imageUrl: "https://www.shutterstock.com/image-photo/miami-florida-usa-april-02-600nw-2650146937.jpg",
     rating: 4.4,
     trips: 14,
     pricePerDay: 100,
@@ -102,7 +102,7 @@ const carsData = [
   {
     id: 11,
     title: "Red convertible",
-    imageUrl: "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg",
+    imageUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSctT0XVjF8IYjoU6PQkz_6wb-VVXfDPbhPIA&s",
     rating: 4.2,
     trips: 7,
     pricePerDay: 130,
@@ -112,7 +112,7 @@ const carsData = [
   {
     id: 12,
     title: "Black SUV city driver",
-    imageUrl: "https://images.pexels.com/photos/3225530/pexels-photo-3225530.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqPKMe-mIBH6JAZ8aAbzqcnh3pLOFED6B3g&s",
     rating: 4.7,
     trips: 19,
     pricePerDay: 85,
@@ -122,7 +122,7 @@ const carsData = [
   {
     id: 13,
     title: "White sedan urban",
-    imageUrl: "https://images.pexels.com/photos/340516/pexels-photo-340516.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY2AEUGoXT-CyzIbAPMHd9OAVEN2SDh2NVAg&s",
     rating: 4.5,
     trips: 24,
     pricePerDay: 48,
@@ -132,7 +132,7 @@ const carsData = [
   {
     id: 14,
     title: "Silver compact",
-    imageUrl: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQNeeMuU7ehYWCjxT8yfFHVDnDQpr4fMzbog&s",
     rating: 4.0,
     trips: 29,
     pricePerDay: 38,
@@ -142,7 +142,7 @@ const carsData = [
   {
     id: 15,
     title: "Blue hatchback",
-    imageUrl: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu3xOI12uWsS1S1sF3oeFPilPC3UK1H2ga7g&s",
     rating: 4.3,
     trips: 26,
     pricePerDay: 42,
@@ -152,7 +152,7 @@ const carsData = [
   {
     id: 16,
     title: "White SUV countryside",
-    imageUrl: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5SYW0mV_ATeG2n28GKX-fZ_W3VGh3FVprYw&s",
     rating: 4.6,
     trips: 16,
     pricePerDay: 78,
@@ -162,7 +162,7 @@ const carsData = [
   {
     id: 17,
     title: "Black compact city",
-    imageUrl: "https://images.pexels.com/photos/603172/pexels-photo-603172.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSJj_IfcuUPwEnWH0NYuK9ji_elV0hbu2G9A&s",
     rating: 4.4,
     trips: 30,
     pricePerDay: 44,
