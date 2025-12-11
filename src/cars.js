@@ -172,7 +172,7 @@ const carsData = [
   {
     id: 18,
     title: "Red hatchback",
-    imageUrl: "https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGLqr8HE6euJdlWZrJoOXAXFgtGMQU8WTwOw&s",
     rating: 4.2,
     trips: 20,
     pricePerDay: 46,
@@ -182,7 +182,7 @@ const carsData = [
   {
     id: 19,
     title: "Grey sedan rural",
-    imageUrl: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9xqirokfG8bEFmbr358btAd1Elq1Eo-Gc6A&s",
     rating: 4.1,
     trips: 28,
     pricePerDay: 50,
@@ -192,7 +192,7 @@ const carsData = [
   {
     id: 20,
     title: "Yellow compact car",
-    imageUrl: "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg",
+    imageUrl: "https://cdn-fastly.autoguide.com/media/2023/06/09/12751999/yellow-cars-top-10-best-and-brightest.jpg?size=720x845&nocrop=1",
     rating: 4.0,
     trips: 31,
     pricePerDay: 39,
@@ -202,7 +202,7 @@ const carsData = [
   {
     id: 21,
     title: "Silver luxury sedan",
-    imageUrl: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+    imageUrl: "https://i.ytimg.com/vi/Lgl7qfpfucM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCDA4D9RbUdR8tWjj1mrEBzQgGBNg",
     rating: 4.6,
     trips: 23,
     pricePerDay: 55,
@@ -212,7 +212,7 @@ const carsData = [
   {
     id: 22,
     title: "White city sedan",
-    imageUrl: "https://images.pexels.com/photos/3225530/pexels-photo-3225530.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLoEW2MHm-ri0RYS4CB-WnPgvdCLssT44Gng&s",
     rating: 4.7,
     trips: 20,
     pricePerDay: 52,
@@ -222,7 +222,7 @@ const carsData = [
   {
     id: 23,
     title: "Black sports coupe",
-    imageUrl: "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRANeOEkupdsXhS2XkZJ0tW43x_sBWT1o3Bow&s",
     rating: 4.3,
     trips: 10,
     pricePerDay: 115,
@@ -232,7 +232,7 @@ const carsData = [
   {
     id: 24,
     title: "Blue SUV near forest",
-    imageUrl: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXz50IB5-6PMBDfeEto4KV6ASFwI3hgWbEtA&s",
     rating: 4.5,
     trips: 17,
     pricePerDay: 82,
@@ -242,7 +242,7 @@ const carsData = [
   {
     id: 25,
     title: "Grey compact hatch",
-    imageUrl: "https://images.pexels.com/photos/603172/pexels-photo-603172.jpeg",
+    imageUrl: "https://img-uk1.cd5.uk/originals/981/stockimages/920769/8d2f4dccc8a237957207ed549b2ab075_920769.jpg",
     rating: 4.2,
     trips: 25,
     pricePerDay: 43,
@@ -252,7 +252,7 @@ const carsData = [
   {
     id: 26,
     title: "White convertible",
-    imageUrl: "https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROQqEr6mgb5nAexlx-PU_0vlCDqCCPNnzoXw&s",
     rating: 4.4,
     trips: 12,
     pricePerDay: 125,
@@ -262,7 +262,7 @@ const carsData = [
   {
     id: 27,
     title: "Black sedan night city",
-    imageUrl: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh_ZTYiH1xfd9yFeknxy2yf72DJhHYpLRdGQ&s",
     rating: 4.5,
     trips: 21,
     pricePerDay: 48,
@@ -272,7 +272,7 @@ const carsData = [
   {
     id: 28,
     title: "Silver hatchback",
-    imageUrl: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_CDy8XKr5XKjfi7Bti5TDbrpKIXir35a-Tg&s",
     rating: 4.0,
     trips: 29,
     pricePerDay: 37,
@@ -282,7 +282,7 @@ const carsData = [
   {
     id: 29,
     title: "White SUV urban",
-    imageUrl: "https://images.pexels.com/photos/3225530/pexels-photo-3225530.jpeg",
+    imageUrl: "https://alkaramamotors.com/wp-content/uploads/2025/10/3-6-min-scaled.jpg",
     rating: 4.7,
     trips: 19,
     pricePerDay: 79,
@@ -292,7 +292,7 @@ const carsData = [
   {
     id: 30,
     title: "Blue sedan countryside",
-    imageUrl: "https://images.pexels.com/photos/340516/pexels-photo-340516.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCT39HPAKF1YlgPEmHZgaW7icyhXAm0BnzYA&s",
     rating: 4.3,
     trips: 26,
     pricePerDay: 49,
@@ -302,7 +302,7 @@ const carsData = [
   {
     id: 31,
     title: "Grey SUV front view",
-    imageUrl: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgNm42SA0E8VZ04tYHu2ZfiOLjDJgiMvDnxQ&s",
     rating: 4.6,
     trips: 18,
     pricePerDay: 83,
@@ -312,7 +312,7 @@ const carsData = [
   {
     id: 32,
     title: "Black city compact",
-    imageUrl: "https://images.pexels.com/photos/603172/pexels-photo-603172.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYbIjmce8OyUq5wMlxr_YL-Mx1xncXzyiXvg&s",
     rating: 4.2,
     trips: 27,
     pricePerDay: 45,
@@ -322,7 +322,7 @@ const carsData = [
   {
     id: 33,
     title: "Red hatchback sunset",
-    imageUrl: "https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBS4kgKukMiyrCXJusbNF_i1_FSL4hJPsBqw&s",
     rating: 4.1,
     trips: 24,
     pricePerDay: 47,
@@ -332,7 +332,7 @@ const carsData = [
   {
     id: 34,
     title: "White sedan parked",
-    imageUrl: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCmJeht3CJN0rZ7rnWnMghXQ1t6IC4IF93cA&s",
     rating: 4.5,
     trips: 22,
     pricePerDay: 50,
@@ -342,7 +342,7 @@ const carsData = [
   {
     id: 35,
     title: "Silver coupe urban",
-    imageUrl: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC58SP4JIEfGQ4nsRuJcfSszMv90kiXiLpPQ&s",
     rating: 4.3,
     trips: 20,
     pricePerDay: 60,
@@ -352,7 +352,7 @@ const carsData = [
   {
     id: 36,
     title: "White hatchback countryside",
-    imageUrl: "https://images.pexels.com/photos/3225530/pexels-photo-3225530.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmjeMG3VwVP2Tk6C2r58T2EafNRmhFQtQ9Ew&s",
     rating: 4.4,
     trips: 28,
     pricePerDay: 42,
@@ -362,7 +362,7 @@ const carsData = [
   {
     id: 37,
     title: "Black sports sedan",
-    imageUrl: "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmPSa-0GtL44otEKqJpIRDyZZ1InfEfu4OLA&s",
     rating: 4.6,
     trips: 14,
     pricePerDay: 110,
@@ -372,7 +372,7 @@ const carsData = [
   {
     id: 38,
     title: "Blue SUV road trip",
-    imageUrl: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pdF9jZpmeeZoxK1jMT86q_P_w-D8GaVqtA&s",
     rating: 4.7,
     trips: 16,
     pricePerDay: 85,
@@ -382,7 +382,7 @@ const carsData = [
   {
     id: 39,
     title: "Grey compact city",
-    imageUrl: "https://images.pexels.com/photos/603172/pexels-photo-603172.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHc4xFeeeGrNZJeyPksaHm0s4k3PY8Iofq7w&s",
     rating: 4.1,
     trips: 32,
     pricePerDay: 39,
@@ -392,7 +392,7 @@ const carsData = [
   {
     id: 40,
     title: "White sedan morning",
-    imageUrl: "https://images.pexels.com/photos/340516/pexels-photo-340516.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJ3wRW7hm3AapBiiQNaNp-68yEja85G05Dw&s",
     rating: 4.5,
     trips: 25,
     pricePerDay: 53,
@@ -402,7 +402,7 @@ const carsData = [
   {
     id: 41,
     title: "Black luxury coupe night",
-    imageUrl: "https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5nVZHYTA8BpQyME95mSHoaPr9E0P0JYbwMg&s",
     rating: 4.4,
     trips: 15,
     pricePerDay: 105,
@@ -412,7 +412,7 @@ const carsData = [
   {
     id: 42,
     title: "Silver compact rural",
-    imageUrl: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
+    imageUrl: "https://media.istockphoto.com/id/1352549542/photo/fiat-tipo-cross-on-a-road.jpg?s=612x612&w=0&k=20&c=27i_jAo3avWI3aAiBmBtzeD-lxU0jbROM6VTJlAWcOQ=",
     rating: 4.2,
     trips: 30,
     pricePerDay: 40,
@@ -422,7 +422,7 @@ const carsData = [
   {
     id: 43,
     title: "White SUV night city",
-    imageUrl: "https://images.pexels.com/photos/3225530/pexels-photo-3225530.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzYdWzYHjQEyqnBBBEd1GGmaGps6TC_LrRKg&s",
     rating: 4.8,
     trips: 18,
     pricePerDay: 90,
@@ -432,7 +432,7 @@ const carsData = [
   {
     id: 44,
     title: "Blue sedan coastal drive",
-    imageUrl: "https://images.pexels.com/photos/340516/pexels-photo-340516.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREyc1T2vA9-eqis-5Mj_05Noyc0x-y0J7D8A&s",
     rating: 4.3,
     trips: 23,
     pricePerDay: 55,
@@ -442,7 +442,7 @@ const carsData = [
   {
     id: 45,
     title: "Grey SUV urban",
-    imageUrl: "https://images.pexels.com/photos/358070/pexels-photo-358070.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHphuSL3QV23UcQ-MBoJYvnalFjGCwzToDxQ&s",
     rating: 4.6,
     trips: 17,
     pricePerDay: 80,
@@ -452,7 +452,7 @@ const carsData = [
   {
     id: 46,
     title: "Black hatchback city",
-    imageUrl: "https://images.pexels.com/photos/603172/pexels-photo-603172.jpeg",
+    imageUrl: "https://cache1.pakwheels.com/ad_pictures/1339/tn_honda-city-1-5l-aspire-cvt-2022-133943885.webp",
     rating: 4.2,
     trips: 29,
     pricePerDay: 42,
@@ -462,7 +462,7 @@ const carsData = [
   {
     id: 47,
     title: "Red convertible countryside",
-    imageUrl: "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZVmVP7x2qRt9_LA3hxp5cUP4p80VgRMlr5w&s",
     rating: 4.1,
     trips: 13,
     pricePerDay: 130,
@@ -472,7 +472,7 @@ const carsData = [
   {
     id: 48,
     title: "White sedan downtown",
-    imageUrl: "https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6-Ed86EX5tp4Ojb_XWouhE1OdRsFDVnGZEA&s",
     rating: 4.4,
     trips: 26,
     pricePerDay: 50,
@@ -482,7 +482,7 @@ const carsData = [
   {
     id: 49,
     title: "Silver sports sedan",
-    imageUrl: "https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmh7vpkJrwz4YGUIzPMy8YkvZDltB-rHHLDA&s",
     rating: 4.5,
     trips: 18,
     pricePerDay: 95,
@@ -492,7 +492,7 @@ const carsData = [
   {
     id: 50,
     title: "White compact hatchback",
-    imageUrl: "https://images.pexels.com/photos/603172/pexels-photo-603172.jpeg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXDN5AskMNmMdmASrmMoSXgXbg3MVwsIKHfA&s",
     rating: 4.0,
     trips: 31,
     pricePerDay: 38,
